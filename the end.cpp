@@ -2,7 +2,7 @@
 
 #include <string>
 
-// Magisk module NOTHING()
+// Magisk module NOTHING(Idk why brother)
 
 using namespace std;
 
