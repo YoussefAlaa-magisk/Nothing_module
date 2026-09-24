@@ -1,4 +1,4 @@
-MODDIR="$(find /data/adb/modules -type d -name samsung_SuperUI_boot)"
+MODDIR="$(find /data/adb/modules -type d -name nothing_module)"
 
 chmod 755 "$MODDIR/get-v"
 "$MODDIR/get-v"
@@ -17,4 +17,8 @@ echo "2"
 sleep 1 
 echo "1"
 sleep 1
+chmod 755 "$MODDIR/the-end"
+"$MODDIR/the-end"
+sleep 1
+
 exit
